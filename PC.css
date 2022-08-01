@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 160px;
+}
+.navbar_top{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(139, 228, 49);
+    position: fixed;
+    z-index: 1;
+}
+.navbar_bottom{ 
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888;
+    position: relative;
+    top: 57px;
+}
+.urta_right{
+    width: 6%;
+    height: 100%;
+}
+.navbar_urta{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+.u{
+    width: 72%;
+    height: 100%;
+    display: flex;
+    font-size: 10px;
+}
+.urta_left{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.urta_left img{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.urta_left > ul li{
+    padding: 0 35px;
+}
+.urta_left > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.urta_left ul li a{
+    text-decoration: none;
+    color: #888;
+    font-size: 18px;
+}
+.urta_left .i:hover{
+    color: #fff;
+}
+.urta_left .pc{
+    color: white;
+}
+.bottom_urta{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom_urta h4{
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    font-weight: 100;
+}
+
+.bottom_urta h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.bottom_urta h4 a:hover{
+    text-decoration: underline;
+}
+
+
+
+.u > ul li{
+    padding: 0 28px;
+}
+.u > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.u ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.u ul li a:hover{
+    color: rgb(000, 228, 49);
+}

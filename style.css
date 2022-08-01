@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* navbar boshlandi */
+
+.navbar{
+    width: 100%;
+    height: 105px;
+}
+.navbar_top{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(139, 228, 49);
+    position: fixed;
+    z-index: 1;
+}
+.navbar_bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888;
+}
+.urta_right{
+    width: 6%;
+    height: 100%;
+}
+.urta_left{
+    width: 94%;
+    height: 100%;
+    /* padding: 0 25px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.urta_left img{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* bottom: 4px; */
+}
+.urta_left > ul li{
+    padding: 0 35px;
+}
+.urta_left > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.urta_left ul li a{
+    text-decoration: none;
+    color: #888;
+    font-size: 18px;
+}
+.urta_left ul li a:hover{
+    color: #fff;
+}
+.bottom_urta{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom_urta h4{
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    font-weight: 100;
+}
+
+.bottom_urta h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.bottom_urta h4 a:hover{
+    text-decoration: underline;
+}
+/* navbar tugadi */
+/* box boshlandi */
+.box{
+    width: 100%;
+    height: 740px;
+    background-image: url(./rasmlar/deathstalker-v2-line-family-hero.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+}
+.box_urta{
+    width: 80%;
+    height: 60%;
+}
+.box_urta h1{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 100;
+}
+.box_urta h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.box_urta h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.box_urta h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.box_urta h4 a span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+.box_urta h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.box_urta h4 a:hover{
+    text-decoration: underline;
+}
+/* box tugadi */
+/* continent boshlandi */
+.continent{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./rasmlar/razer-blade-14-ultra-quartz-carousel-1-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+.continent_top{
+    width: 80%;
+    height: 60%;
+}
+.continent_top h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 100;
+    text-align: center;
+}
+.continent_top h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.continent_top h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.continent_top h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.continent_top h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+.continent_top h4 a{
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+}
+.continent_top h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+/* continent tugadi */
+/* contiener boshlandi */
+.contiener{
+    width: 100%;
+    height: 800px;
+    background-image: url(./rasmlar/kraken_v3_pro_1500x1000_3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 99%;
+    background-position-y: 10px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+.contiener_box{
+    width: 80%;
+    height: 50%;
+}
+
+.contiener_box h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 100;
+    text-align: center;
+}
+.contiener_box h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.contiener_box h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.contiener_box h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.contiener_box h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+
+.contiener_box h4 a{
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+}
+.contiener_box h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+/* contiener tugadi */
+/* picture_top boshlandi */
+.picture_top{
+    width: 100%;
+    height: 600px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.picture_top_left{
+    width: 49.6%;
+    height: 98%;
+    background-image: url(./rasmlar/razer-enki-pro-gaming-chair-review.webp);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.picture_top_right{
+    width: 49.6%;
+    height: 98%;
+    background-image: url(./rasmlar/razer-quick-charging-stand-for-ps5_1500x1000_gallery_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.picture_top_box{
+    width: 50%;
+    height: 40%;
+}
+
+.picture_top_box h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_box h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_box h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_box h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_box h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+
+.picture_top_box h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.picture_top_box h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.picture_top_name{
+    width: 80%;
+    height: 50%;
+}
+
+.picture_top_name h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_name h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_name h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_name h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_top_name h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+
+.picture_top_name h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.picture_top_name h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+/* picture_top tugadi */
+/* picture_urta boshlandi */
+.picture_urta{
+    width: 100%;
+    height: 600px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.picture_urta_left{
+    width: 49.6%;
+    height: 98%;
+    background-image: url(./rasmlar/https___hybrismediaprod.blob.core.windows.net_sys-master-phoenix-images-container_h99_h8e_9085327999006_blade15-quartz-Gallery-hero-1500x1000.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.picture_urta_right{
+    width: 49.6%;
+    height: 98%;
+    background-image: url(./rasmlar/razer-blade-15-fhd-carousel-768x500-mobile.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+.picture_urta_box{
+    width: 80%;
+    height: 50%;
+}
+
+.picture_urta_box h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_box h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_box h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_box h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_box h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+
+.picture_urta_box h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.picture_urta_box h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.picture_urta_name{
+    width: 80%;
+    height: 50%;
+}
+
+.picture_urta_name h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_name h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_name h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_name h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_urta_name h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+
+.picture_urta_name h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.picture_urta_name h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+/* picture_urta tugadi */
+/* picture_bottom boshlandi */
+.picture_bottom{
+    width: 100%;
+    height: 600px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture_bottom_left{
+    width: 49.6%;
+    height: 96%;
+    background-image: url(./rasmlar/champion-your-razerchair-OGimage_1200x630.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.picture_bottom_right{
+    width: 49.6%;
+    height: 96%;
+    background-image: url(./rasmlar/The-Razer-Viper-V2-Pro-is-installing-new-mouse-and-rewinds.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+.picture_bottom_name{
+    width: 80%;
+    height: 50%;
+}
+
+.picture_bottom_name h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_name h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_name h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_name h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_name h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+
+.picture_bottom_name h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.picture_bottom_name h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.picture_bottom_box{
+    width: 80%;
+    height: 50%;
+}
+
+.picture_bottom_box h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_box h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_box h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_box h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.picture_bottom_box h4 span{
+    font-weight: 100;
+    color: rgb(131, 231, 31);
+}
+
+.picture_bottom_box h4 a{
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+.picture_bottom_box h4 a:hover{
+    font-weight: 100;
+    text-decoration: underline;
+}
+/* picture_bottom tugadi */
+.exesport{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+}
+.exesport_box{
+    width: 65%;
+    height: 100%;
+}
+.exesport_top{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: end;
+}
+.exesport_bottom{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    border-top: 1px solid #888;
+}
+.box1{
+    width: 17%;
+    height: 90%;
+} 
+.box2{
+    width: 17%;
+    height: 90%;
+} 
+.box3{
+    width: 17%;
+    height: 90%;
+} 
+.box4{
+    width: 17%;
+    height: 90%;
+} 
+.box5{
+    width: 32%;
+    height: 90%;
+}
+.box5 h3{
+    color: rgb(109, 206, 11);
+    text-align: end;
+    font-weight: 100;
+    font-size: 16px;
+} 
+.facebook{
+    width: 26%;
+    height: 30%;
+    border: 1px solid rgb(109, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.twitter{
+    width: 26%;
+    height: 30%;
+    border: 1px solid rgb(109, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.instagram{
+    width: 26%;
+    height: 30%;
+    border: 1px solid rgb(109, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.ilova{
+    width: 40%;
+    height: 50%;
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+    top: 5%;
+    left: 58%;
+}
+.ilova i{
+    font-size: 25px;
+    color: rgb(109, 206, 11);
+}
+.exesport_bottom_left{
+    width: 25%;
+    height: 100%;
+}
+.exesport_bottom_urta{
+    width: 35%;
+    height: 100%;
+}
+.exesport_bottom_right{
+    width: 40%;
+    height: 100%;
+}
